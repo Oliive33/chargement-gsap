@@ -11,7 +11,7 @@ function initAnim() {
   const TLFADE = gsap.timeline();
 
   TLFADE.to(title, { autoAlpha: 1, y: 0, delay: 0.2 })
-    .to(verticalLine, { height: 200, duration: 2 }, "-=0.3")
+    .to(verticalLine, { height: 130, duration: 2 }, "-=0.3")
     .to(grapesLogo, { autoAlpha: 1, y: 0 }, "-=0.3")
     .to(homeBtn, { autoAlpha: 1, y: 0 }, "-=0.3")
     .to(
